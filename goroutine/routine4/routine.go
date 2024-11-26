@@ -19,6 +19,7 @@ func main() {
 	select {
 	case ch2 <- v:
 	case v2 = <-ch1:
+
 	}
 	fmt.Println(v, v2)
 }

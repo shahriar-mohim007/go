@@ -3,8 +3,8 @@ package main
 import "fmt"
 
 func main() {
-	ch1 := make(chan int)
-	ch2 := make(chan int)
+	ch1 := make(chan int, 2)
+	ch2 := make(chan int, 2)
 
 	// Start a goroutine that sends and receives values through channels
 	go func() {
