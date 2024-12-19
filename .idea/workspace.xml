@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="37572f9a-9bcd-461c-9e1d-45874007290d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/function/function7/function7.go" beforeDir="false" afterPath="$PROJECT_DIR$/function/function7/function7.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +40,9 @@
     "DefaultGoTemplateProperty": "Go File",
     "Go Build.go build again_go/450/cmobination.executor": "Run",
     "Go Build.go build again_go/450/max_profit.executor": "Run",
+    "Go Build.go build again_go/450/meetingroom.executor": "Run",
+    "Go Build.go build again_go/450/mergeinterval.executor": "Run",
+    "Go Build.go build again_go/450/non-overlapping.executor": "Run",
     "Go Build.go build again_go/450/rotate.executor": "Run",
     "Go Build.go build again_go/450/spiral.executor": "Debug",
     "Go Build.go build again_go/450/two_sum_zero.executor": "Run",
@@ -88,7 +91,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build again_go/450/zero">
+  <component name="RunManager" selected="Go Build.go build again_go/450/meeting2">
     <configuration name="go build again_go/450/cmobination" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go" />
       <working_directory value="$PROJECT_DIR$" />
@@ -98,48 +101,48 @@
       <filePath value="$PROJECT_DIR$/450/cmobination/combination.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build again_go/450/rotate" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build again_go/450/meeting2" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="again_go/450/rotate" />
+      <package value="again_go/450/meeting2" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/450/rotate/rotate.go" />
+      <filePath value="$PROJECT_DIR$/450/meeting2/meeting.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build again_go/450/spiral" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build again_go/450/meetingroom" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="again_go/450/spiral" />
+      <package value="again_go/450/meetingroom" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/450/spiral/spiral.go" />
+      <filePath value="$PROJECT_DIR$/450/meetingroom/meeting.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build again_go/450/zero" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build again_go/450/mergeinterval" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="again_go/450/zero" />
+      <package value="again_go/450/mergeinterval" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/450/zero/zero.go" />
+      <filePath value="$PROJECT_DIR$/450/mergeinterval/mergeinterval.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build again_go/function/function7" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build again_go/450/non-overlapping" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="again_go/function/function7" />
+      <package value="again_go/450/non-overlapping" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/function/function7/function7.go" />
+      <filePath value="$PROJECT_DIR$/450/non-overlapping/non.go" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build again_go/450/zero" />
-        <item itemvalue="Go Build.go build again_go/450/spiral" />
-        <item itemvalue="Go Build.go build again_go/450/rotate" />
-        <item itemvalue="Go Build.go build again_go/function/function7" />
+        <item itemvalue="Go Build.go build again_go/450/meeting2" />
+        <item itemvalue="Go Build.go build again_go/450/meetingroom" />
+        <item itemvalue="Go Build.go build again_go/450/non-overlapping" />
+        <item itemvalue="Go Build.go build again_go/450/mergeinterval" />
         <item itemvalue="Go Build.go build again_go/450/cmobination" />
       </list>
     </recent_temporary>
