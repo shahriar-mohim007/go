@@ -24,8 +24,10 @@ func main() {
 	fmt.Println("Resource:", resource)
 }
 
-//In Go, sync.Once is a type in the sync package that ensures a function is only executed once, even if it is called multiple times across different goroutines.
-//It is commonly used for lazy initialization or to ensure that a specific action is done only once, regardless of how many times the function or method is called.
+//In Go, sync.Once is a type in the sync package that
+//ensures a function is only executed once, even if it is called multiple times across different goroutines.
+//It is commonly used for lazy initialization or to ensure that a specific action is done only once, regardless of
+//how many times the function or method is called.
 //Key Features:
 //
 //Thread-safe: It ensures that the function is only executed once, even when multiple goroutines are involved.
@@ -34,6 +36,7 @@ func main() {
 //
 //How It Works:
 //
-//sync.Once has a method called Do, which takes a function as its argument. The first time Do is called, it executes the function provided. On subsequent calls,
+//sync.Once has a method called Do, which takes a function as its argument.
+//The first time Do is called, it executes the function provided. On subsequent calls,
 //it ensures that the function is not called again.
 //If the function passed to Do panics or has an error, sync.Once will not attempt to call the function again.

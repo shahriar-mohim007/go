@@ -32,7 +32,10 @@ func main() {
 		select {
 		case v, ok := <-in:
 			if !ok {
-				in = nil // Disable this case
+				in = nil
+				if in2 == nil {
+					close(done)
+				} // Disable this case
 				continue
 			}
 			fmt.Println("Received from in:", v)
@@ -40,11 +43,15 @@ func main() {
 		case v, ok := <-in2:
 			if !ok {
 				in2 = nil // Disable this case
+				if in == nil {
+					close(done)
+				}
 				continue
 			}
 			fmt.Println("Received from in2:", v)
 
 		case <-done:
+			fmt.Println("All channels are closed. Exiting.")
 			return // Stop when done is closed
 		}
 	}

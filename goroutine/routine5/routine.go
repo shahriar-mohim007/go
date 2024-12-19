@@ -27,8 +27,10 @@ func main() {
 	}
 }
 
-//The error "fatal error: all goroutines are asleep - deadlock!" occurs because the channel ch is never closed.When main tries to range over countTo(10),
+//The error "fatal error: all goroutines are asleep - deadlock!" occurs because the channel ch is never closed.
+//When main tries to range over countTo(10),
 //it waits indefinitely for more values, even after all values up to max-1 have been sent.
 //
 //In Go, when you range over a channel, it must eventually be closed by the sender; otherwise,
-//the receiver keeps waiting for more values. To fix this, you need to close the channel ch inside the goroutine after sending all the values.
+//the receiver keeps waiting for more values. To fix this, you need to close the channel ch inside the goroutine
+//after sending all the values.

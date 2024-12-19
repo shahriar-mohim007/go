@@ -30,7 +30,7 @@ func searchData(s string, searchers []func(string) []string) []string {
 
 // Example search functions
 func search1(s string) []string {
-	time.Sleep(1 * time.Second) // Simulate delay
+	time.Sleep(1 * time.Millisecond) // Simulate delay
 	return []string{"Result from search1 with " + s}
 }
 

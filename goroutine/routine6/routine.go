@@ -12,7 +12,7 @@ func countTo(max int, wg *sync.WaitGroup) <-chan int {
 
 	// Start a goroutine to generate numbers
 	go func() {
-		defer wg.Done() // Decrement WaitGroup counter when done
+		// Decrement WaitGroup counter when done
 		for i := 0; i < max; i++ {
 			ch <- i // Send the current number to the channel
 		}
@@ -29,16 +29,17 @@ func main() {
 	// Range over the values received from the countTo function
 	for i := range ch {
 		if i > 5 {
+			wg.Done()
 			break // Break early if i > 5
 		}
 		fmt.Println(i) // Print each number as it is received
 	}
-
 	// Wait for all goroutines to complete
 	wg.Wait() // This will cause a deadlock
 }
 
-//Unconsumed Values: The countTo goroutine is still running and attempts to send the remaining values (6 to 9) to the channel ch. However,
+//Unconsumed Values: The countTo goroutine is still running and attempts to send the remaining
+//values (6 to 9) to the channel ch. However,
 //since main has stopped receiving,
 //these sends block, causing the countTo goroutine to wait indefinitely.
 //

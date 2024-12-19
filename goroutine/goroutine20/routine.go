@@ -17,6 +17,7 @@ type MySingleton struct {
 func GetInstance() *MySingleton {
 	once.Do(func() {
 		instance = &MySingleton{Name: "Singleton Instance"}
+		fmt.Println("instance:", instance)
 	})
 	return instance
 }

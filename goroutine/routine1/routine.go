@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"sync"
 )
 
 func process(val int) int {
@@ -39,6 +40,15 @@ func main() {
 	for result := range out {
 		fmt.Println("Processed:", result)
 	}
+	var wg sync.WaitGroup
+	wg.Add(1)
+	go func() {
+		defer wg.Done() // Decrement the counter when the goroutine finishes
+		fmt.Println("Goroutine has finished its work")
+	}()
+
+	fmt.Println("Main function is exiting")
+	wg.Wait()
 }
 
 //+---------------------+

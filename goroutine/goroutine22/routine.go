@@ -57,5 +57,6 @@ func main() {
 //A worker pool in Go is a common pattern used to manage and control the number of goroutines performing concurrent tasks.
 //	This approach is particularly useful when you need to limit the number of tasks running in parallel, allowing for efficient resource management.
 //A race condition occurs when two or more goroutines (concurrent threads of execution) attempt to access shared data simultaneously,
-//and at least one of them modifies the data. If the access and modification are not properly synchronized, the final outcome may be unpredictable or incorrect.
+//and at least one of them modifies the data. If the access and modification are not properly synchronized, the final outcome may
+//be unpredictable or incorrect.
 //	This can lead to bugs that are difficult to reproduce and debug because they depend on the timing of the goroutines.

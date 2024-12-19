@@ -20,15 +20,30 @@ func increment() {
 
 func main() {
 	var wg sync.WaitGroup
-
 	// Launch multiple goroutines to increment the counter
-	for i := 0; i < 5; i++ {
-		wg.Add(1)
-		go func() {
-			defer wg.Done()
-			increment()
-		}()
-	}
+	wg.Add(4)
+	go func() {
+		defer wg.Done()
+		fmt.Println("goroutine 1")
+		increment()
+	}()
+	increment()
+	go func() {
+		defer wg.Done()
+		fmt.Println("goroutine 2")
+		increment()
+	}()
+	go func() {
+		defer wg.Done()
+		fmt.Println("goroutine 3")
+		increment()
+	}()
+	increment()
+	go func() {
+		defer wg.Done()
+		fmt.Println("goroutine 4")
+		increment()
+	}()
 
 	wg.Wait() // Wait for all goroutines to complete
 
@@ -36,7 +51,8 @@ func main() {
 }
 
 //In Go, a mutex (short for mutual exclusion) is used to synchronize access to shared resources among multiple goroutines.
-//	When multiple goroutines are trying to read or modify the same data concurrently, it can lead to race conditions, which can cause unpredictable behavior.
+//	When multiple goroutines are trying to read or modify the same data concurrently,
+//	it can lead to race conditions, which can cause unpredictable behavior.
 //	A mutex provides a way to ensure that only one goroutine can access the shared resource at a time, preventing concurrent access issues.
 //
 //Go provides the sync.Mutex type, which is part of the sync package, to achieve mutual exclusion.

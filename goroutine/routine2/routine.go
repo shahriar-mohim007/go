@@ -5,6 +5,9 @@ import "fmt"
 func main() {
 	ch1 := make(chan int, 2)
 	ch2 := make(chan int, 2)
+	//ch1 := make(chan int)
+	//ch2 := make(chan int)
+	// deadlocking goroutine
 
 	// Start a goroutine that sends and receives values through channels
 	go func() {
