@@ -35,50 +35,78 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultGoTemplateProperty": "Go File",
-    "Go Build.go build again_go/450/cmobination.executor": "Run",
-    "Go Build.go build again_go/450/max_profit.executor": "Run",
-    "Go Build.go build again_go/450/meetingroom.executor": "Run",
-    "Go Build.go build again_go/450/mergeinterval.executor": "Run",
-    "Go Build.go build again_go/450/non-overlapping.executor": "Run",
-    "Go Build.go build again_go/450/rotate.executor": "Run",
-    "Go Build.go build again_go/450/spiral.executor": "Debug",
-    "Go Build.go build again_go/450/two_sum_zero.executor": "Run",
-    "Go Build.go build again_go/450/zero.executor": "Run",
-    "Go Build.go build again_go/function/function7.executor": "Run",
-    "Go Build.go build factorial.go.executor": "Run",
-    "Go Build.go build longest.go.executor": "Run",
-    "Go Build.go build maxproduct.go.executor": "Run",
-    "Go Build.go build min_swap.go.executor": "Run",
-    "Go Build.go build more.go.executor": "Run",
-    "Go Build.go build price.go.executor": "Run",
-    "Go Build.go build rain.go.executor": "Run",
-    "Go Build.go build routine.go (1).executor": "Run",
-    "Go Build.go build routine.go (2).executor": "Run",
-    "Go Build.go build routine.go (3).executor": "Run",
-    "Go Build.go build routine.go (4).executor": "Run",
-    "Go Build.go build routine.go (5).executor": "Run",
-    "Go Build.go build routine.go.executor": "Run",
-    "Go Build.go build smallest_sum.go.executor": "Run",
-    "Go Build.go build three.go.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.go.formatter.settings.were.checked": "true",
-    "RunOnceActivity.go.migrated.go.modules.settings": "true",
-    "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
-    "git-widget-placeholder": "main",
-    "go.import.settings.migrated": "true",
-    "go.sdk.automatically.set": "true",
-    "last_opened_file_path": "/home/mohim/Documents/go",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "run.configurations.included.in.services": "true",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultGoTemplateProperty&quot;: &quot;Go File&quot;,
+    &quot;Go Build.go build again_go/450/add_and_search_word.executor&quot;: &quot;Run&quot;,
+    &quot;Go Build.go build again_go/450/climb.executor&quot;: &quot;Run&quot;,
+    &quot;Go Build.go build again_go/450/clonegraph.executor&quot;: &quot;Run&quot;,
+    &quot;Go Build.go build again_go/450/cmobination.executor&quot;: &quot;Run&quot;,
+    &quot;Go Build.go build again_go/450/coin.executor&quot;: &quot;Run&quot;,
+    &quot;Go Build.go build again_go/450/countcomponent.executor&quot;: &quot;Run&quot;,
+    &quot;Go Build.go build again_go/450/decode.executor&quot;: &quot;Run&quot;,
+    &quot;Go Build.go build again_go/450/encode_decode.executor&quot;: &quot;Debug&quot;,
+    &quot;Go Build.go build again_go/450/group.executor&quot;: &quot;Run&quot;,
+    &quot;Go Build.go build again_go/450/island.executor&quot;: &quot;Run&quot;,
+    &quot;Go Build.go build again_go/450/jump.executor&quot;: &quot;Run&quot;,
+    &quot;Go Build.go build again_go/450/kth_bst.executor&quot;: &quot;Run&quot;,
+    &quot;Go Build.go build again_go/450/longest_palindrom.executor&quot;: &quot;Run&quot;,
+    &quot;Go Build.go build again_go/450/longestcommonsequence.executor&quot;: &quot;Run&quot;,
+    &quot;Go Build.go build again_go/450/longestincreasing.executor&quot;: &quot;Run&quot;,
+    &quot;Go Build.go build again_go/450/longestrepeating.executor&quot;: &quot;Debug&quot;,
+    &quot;Go Build.go build again_go/450/max_profit.executor&quot;: &quot;Run&quot;,
+    &quot;Go Build.go build again_go/450/meeting2.executor&quot;: &quot;Run&quot;,
+    &quot;Go Build.go build again_go/450/meetingroom.executor&quot;: &quot;Run&quot;,
+    &quot;Go Build.go build again_go/450/mergeinterval.executor&quot;: &quot;Run&quot;,
+    &quot;Go Build.go build again_go/450/non-overlapping.executor&quot;: &quot;Run&quot;,
+    &quot;Go Build.go build again_go/450/pacific.executor&quot;: &quot;Run&quot;,
+    &quot;Go Build.go build again_go/450/palindromesub.executor&quot;: &quot;Run&quot;,
+    &quot;Go Build.go build again_go/450/remove_list.executor&quot;: &quot;Run&quot;,
+    &quot;Go Build.go build again_go/450/rob.executor&quot;: &quot;Debug&quot;,
+    &quot;Go Build.go build again_go/450/rob1.executor&quot;: &quot;Run&quot;,
+    &quot;Go Build.go build again_go/450/rotate.executor&quot;: &quot;Run&quot;,
+    &quot;Go Build.go build again_go/450/spiral.executor&quot;: &quot;Debug&quot;,
+    &quot;Go Build.go build again_go/450/subarray.executor&quot;: &quot;Run&quot;,
+    &quot;Go Build.go build again_go/450/subtree.executor&quot;: &quot;Run&quot;,
+    &quot;Go Build.go build again_go/450/top_k.executor&quot;: &quot;Run&quot;,
+    &quot;Go Build.go build again_go/450/trie.executor&quot;: &quot;Run&quot;,
+    &quot;Go Build.go build again_go/450/two_sum_zero.executor&quot;: &quot;Run&quot;,
+    &quot;Go Build.go build again_go/450/uniquepath.executor&quot;: &quot;Run&quot;,
+    &quot;Go Build.go build again_go/450/validtree.executor&quot;: &quot;Run&quot;,
+    &quot;Go Build.go build again_go/450/wordbreak.executor&quot;: &quot;Run&quot;,
+    &quot;Go Build.go build again_go/450/zero.executor&quot;: &quot;Run&quot;,
+    &quot;Go Build.go build again_go/function/function7.executor&quot;: &quot;Run&quot;,
+    &quot;Go Build.go build factorial.go.executor&quot;: &quot;Run&quot;,
+    &quot;Go Build.go build longest.go.executor&quot;: &quot;Run&quot;,
+    &quot;Go Build.go build maxproduct.go.executor&quot;: &quot;Run&quot;,
+    &quot;Go Build.go build min_swap.go.executor&quot;: &quot;Run&quot;,
+    &quot;Go Build.go build more.go.executor&quot;: &quot;Run&quot;,
+    &quot;Go Build.go build price.go.executor&quot;: &quot;Run&quot;,
+    &quot;Go Build.go build rain.go.executor&quot;: &quot;Run&quot;,
+    &quot;Go Build.go build routine.go (1).executor&quot;: &quot;Run&quot;,
+    &quot;Go Build.go build routine.go (2).executor&quot;: &quot;Run&quot;,
+    &quot;Go Build.go build routine.go (3).executor&quot;: &quot;Run&quot;,
+    &quot;Go Build.go build routine.go (4).executor&quot;: &quot;Run&quot;,
+    &quot;Go Build.go build routine.go (5).executor&quot;: &quot;Run&quot;,
+    &quot;Go Build.go build routine.go.executor&quot;: &quot;Run&quot;,
+    &quot;Go Build.go build smallest_sum.go.executor&quot;: &quot;Run&quot;,
+    &quot;Go Build.go build three.go.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.modules.go.list.on.any.changes.was.set&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
+    &quot;go.sdk.automatically.set&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/mohim/Documents/go&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/450/palindrome" />
@@ -91,59 +119,59 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build again_go/450/meeting2">
-    <configuration name="go build again_go/450/cmobination" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Build.go build again_go/450/group">
+    <configuration name="go build again_go/450/encode_decode" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="again_go/450/cmobination" />
+      <package value="again_go/450/encode_decode" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/450/cmobination/combination.go" />
+      <filePath value="$PROJECT_DIR$/450/encode_decode/encode.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build again_go/450/meeting2" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build again_go/450/group" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="again_go/450/meeting2" />
+      <package value="again_go/450/group" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/450/meeting2/meeting.go" />
+      <filePath value="$PROJECT_DIR$/450/group/anagram.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build again_go/450/meetingroom" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build again_go/450/longestrepeating" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="again_go/450/meetingroom" />
+      <package value="again_go/450/longestrepeating" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/450/meetingroom/meeting.go" />
+      <filePath value="$PROJECT_DIR$/450/longestrepeating/repeat.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build again_go/450/mergeinterval" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build again_go/450/remove_list" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="again_go/450/mergeinterval" />
+      <package value="again_go/450/remove_list" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/450/mergeinterval/mergeinterval.go" />
+      <filePath value="$PROJECT_DIR$/450/remove_list/remove_n.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build again_go/450/non-overlapping" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build again_go/450/top_k" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="again_go/450/non-overlapping" />
+      <package value="again_go/450/top_k" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/450/non-overlapping/non.go" />
+      <filePath value="$PROJECT_DIR$/450/top_k/top.go" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build again_go/450/meeting2" />
-        <item itemvalue="Go Build.go build again_go/450/meetingroom" />
-        <item itemvalue="Go Build.go build again_go/450/non-overlapping" />
-        <item itemvalue="Go Build.go build again_go/450/mergeinterval" />
-        <item itemvalue="Go Build.go build again_go/450/cmobination" />
+        <item itemvalue="Go Build.go build again_go/450/group" />
+        <item itemvalue="Go Build.go build again_go/450/top_k" />
+        <item itemvalue="Go Build.go build again_go/450/encode_decode" />
+        <item itemvalue="Go Build.go build again_go/450/longestrepeating" />
+        <item itemvalue="Go Build.go build again_go/450/remove_list" />
       </list>
     </recent_temporary>
   </component>
@@ -179,6 +207,21 @@
           <url>file://$PROJECT_DIR$/450/spiral/spiral.go</url>
           <line>50</line>
           <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/450/validtree/valid.go</url>
+          <line>5</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/450/longestsubstring/substring.go</url>
+          <line>25</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/450/longestrepeating/repeat.go</url>
+          <line>7</line>
+          <option name="timeStamp" value="24" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
