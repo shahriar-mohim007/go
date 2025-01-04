@@ -20,6 +20,12 @@ func numDecodings(s string) int {
 	return dp[len(s)]
 }
 
+//'A', 'B', 'B', 'C' (i.e., "1 2 2 3")
+//'A', 'B', 'W' (i.e., "1 2 23")
+//'A', 'V', 'C' (i.e., "1 22 3")
+//'L', 'B', 'C' (i.e., "12 2 3")
+//'L', 'W' (i.e., "12 23")
+
 func main() {
 	fmt.Println(numDecodings("12"))
 }

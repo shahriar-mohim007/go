@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="37572f9a-9bcd-461c-9e1d-45874007290d" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/450/decode/decode.go" beforeDir="false" afterPath="$PROJECT_DIR$/450/decode/decode.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +58,7 @@
     &quot;Go Build.go build again_go/450/max_profit.executor&quot;: &quot;Run&quot;,
     &quot;Go Build.go build again_go/450/meeting2.executor&quot;: &quot;Run&quot;,
     &quot;Go Build.go build again_go/450/meetingroom.executor&quot;: &quot;Run&quot;,
+    &quot;Go Build.go build again_go/450/meetingroom1.executor&quot;: &quot;Run&quot;,
     &quot;Go Build.go build again_go/450/mergeinterval.executor&quot;: &quot;Run&quot;,
     &quot;Go Build.go build again_go/450/non-overlapping.executor&quot;: &quot;Run&quot;,
     &quot;Go Build.go build again_go/450/pacific.executor&quot;: &quot;Run&quot;,
@@ -99,7 +101,7 @@
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
     &quot;go.sdk.automatically.set&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/mohim/Documents/go&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/mohim/Documents/southeast-bank-transfer-go&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
@@ -119,16 +121,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build again_go/450/group">
-    <configuration name="go build again_go/450/encode_decode" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="go" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="again_go/450/encode_decode" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/450/encode_decode/encode.go" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Go Build.go build again_go/450/palindromesub">
     <configuration name="go build again_go/450/group" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go" />
       <working_directory value="$PROJECT_DIR$" />
@@ -138,40 +131,49 @@
       <filePath value="$PROJECT_DIR$/450/group/anagram.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build again_go/450/longestrepeating" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build again_go/450/meetingroom" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="again_go/450/longestrepeating" />
+      <package value="again_go/450/meetingroom" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/450/longestrepeating/repeat.go" />
+      <filePath value="$PROJECT_DIR$/450/meetingroom/meeting.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build again_go/450/remove_list" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build again_go/450/meetingroom1" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="again_go/450/remove_list" />
+      <package value="again_go/450/meetingroom1" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/450/remove_list/remove_n.go" />
+      <filePath value="$PROJECT_DIR$/450/meetingroom1/meeting.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build again_go/450/top_k" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build again_go/450/palindromesub" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="again_go/450/top_k" />
+      <package value="again_go/450/palindromesub" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/450/top_k/top.go" />
+      <filePath value="$PROJECT_DIR$/450/palindromesub/palindrome.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build again_go/450/subarray" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="again_go/450/subarray" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/450/subarray/subarray.go" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build again_go/450/palindromesub" />
+        <item itemvalue="Go Build.go build again_go/450/subarray" />
+        <item itemvalue="Go Build.go build again_go/450/meetingroom" />
+        <item itemvalue="Go Build.go build again_go/450/meetingroom1" />
         <item itemvalue="Go Build.go build again_go/450/group" />
-        <item itemvalue="Go Build.go build again_go/450/top_k" />
-        <item itemvalue="Go Build.go build again_go/450/encode_decode" />
-        <item itemvalue="Go Build.go build again_go/450/longestrepeating" />
-        <item itemvalue="Go Build.go build again_go/450/remove_list" />
       </list>
     </recent_temporary>
   </component>
